@@ -1,4 +1,4 @@
-const assetBase = '/Jawa_Modern_Parallax_Asset_Pack'
+const assetBase = `${import.meta.env.BASE_URL}Jawa_Modern_Parallax_Asset_Pack`
 
 export const weddingData = {
   couple: {
@@ -41,7 +41,7 @@ export const weddingData = {
   sampleWishes: [
     { name: 'Keluarga & Sahabat', message: 'Semoga hari bahagia ini menjadi awal rumah tangga yang penuh kasih.' },
   ],
-  audioSrc: '/music/alex-morgan-wedding-instrumental-vow-exchange-578502.mp3',
+  audioSrc: `${import.meta.env.BASE_URL}music/alex-morgan-wedding-instrumental-vow-exchange-578502.mp3`,
   assets: { cover: `${assetBase}/08-opening-cover.png`, heroBase: assetBase },
 } as const
 
