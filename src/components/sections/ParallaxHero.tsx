@@ -12,13 +12,13 @@ type LayerMotion = {
 }
 
 const motionProfiles: LayerMotion[] = [
-  { file: '01-far-background.png', scrollX: 0, scrollY: -42, pointerX: 3, pointerY: 2, scaleFrom: 1.07, scaleTo: 1.12 },
-  { file: '02-rear-architecture.png', scrollX: 0, scrollY: -105, pointerX: 6, pointerY: 4, scaleFrom: 1.045, scaleTo: 1.16 },
-  { file: '03-middle-arch.png', scrollX: 0, scrollY: -175, pointerX: 9, pointerY: 6, scaleFrom: 1.03, scaleTo: 1.2 },
-  { file: '04-front-arch.png', scrollX: 0, scrollY: -245, pointerX: 12, pointerY: 8, scaleFrom: 1.02, scaleTo: 1.25 },
-  { file: '05-fictional-couple.png', scrollX: 0, scrollY: -128, pointerX: 7, pointerY: 5, scaleFrom: 1.015, scaleTo: 1.1 },
-  { file: '06-foreground-left.png', scrollX: -430, scrollY: -155, pointerX: 22, pointerY: 14, scaleFrom: 1.08, scaleTo: 1.18 },
-  { file: '07-foreground-right.png', scrollX: 430, scrollY: -155, pointerX: -22, pointerY: 14, scaleFrom: 1.08, scaleTo: 1.18 },
+  { file: '01-far-background.webp', scrollX: 0, scrollY: -42, pointerX: 3, pointerY: 2, scaleFrom: 1.07, scaleTo: 1.12 },
+  { file: '02-rear-architecture.webp', scrollX: 0, scrollY: -105, pointerX: 6, pointerY: 4, scaleFrom: 1.045, scaleTo: 1.16 },
+  { file: '03-middle-arch.webp', scrollX: 0, scrollY: -175, pointerX: 9, pointerY: 6, scaleFrom: 1.03, scaleTo: 1.2 },
+  { file: '04-front-arch.webp', scrollX: 0, scrollY: -245, pointerX: 12, pointerY: 8, scaleFrom: 1.02, scaleTo: 1.25 },
+  { file: '05-fictional-couple.webp', scrollX: 0, scrollY: -128, pointerX: 7, pointerY: 5, scaleFrom: 1.015, scaleTo: 1.1 },
+  { file: '06-foreground-left.webp', scrollX: -430, scrollY: -155, pointerX: 22, pointerY: 14, scaleFrom: 1.08, scaleTo: 1.18 },
+  { file: '07-foreground-right.webp', scrollX: 430, scrollY: -155, pointerX: -22, pointerY: 14, scaleFrom: 1.08, scaleTo: 1.18 },
 ]
 
 const clamp = (value: number, min = 0, max = 1) => Math.min(max, Math.max(min, value))

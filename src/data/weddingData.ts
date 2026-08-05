@@ -31,9 +31,9 @@ export const weddingData = {
     { year: '2030', title: 'Menuju Selamanya', text: 'Dengan restu keluarga, kami memilih melanjutkan cerita dalam ikatan pernikahan.' },
   ],
   gallery: [
-    { src: `${assetBase}/09-gallery-walk.png`, alt: 'Arga dan Kirana berjalan bersama dalam busana Jawa modern', width: 869, height: 1810 },
-    { src: `${assetBase}/10-gallery-editorial.png`, alt: 'Potret editorial Arga dan Kirana', width: 1537, height: 1023 },
-    { src: `${assetBase}/11-gallery-closeup.png`, alt: 'Potret dekat pasangan Arga dan Kirana', width: 1122, height: 1402 },
+    { src: `${assetBase}/09-gallery-walk.webp`, alt: 'Arga dan Kirana berjalan bersama dalam busana Jawa modern', width: 869, height: 1810 },
+    { src: `${assetBase}/10-gallery-editorial.webp`, alt: 'Potret editorial Arga dan Kirana', width: 1537, height: 1023 },
+    { src: `${assetBase}/11-gallery-closeup.webp`, alt: 'Potret dekat pasangan Arga dan Kirana', width: 1122, height: 1402 },
   ],
   gifts: [
     { bank: '[Nama Bank]', account: '[Nomor rekening perlu diganti]', holder: '[Nama pemilik rekening]' },
@@ -42,7 +42,7 @@ export const weddingData = {
     { name: 'Keluarga & Sahabat', message: 'Semoga hari bahagia ini menjadi awal rumah tangga yang penuh kasih.' },
   ],
   audioSrc: `${import.meta.env.BASE_URL}music/alex-morgan-wedding-instrumental-vow-exchange-578502.mp3`,
-  assets: { cover: `${assetBase}/08-opening-cover.png`, heroBase: assetBase },
+  assets: { cover: `${assetBase}/08-opening-cover.webp`, heroBase: assetBase },
 } as const
 
 export type WeddingData = typeof weddingData
