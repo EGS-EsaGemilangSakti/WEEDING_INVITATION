@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+
+<html lang="id"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The Wedding of Arga &amp; Kirana</title>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&amp;family=Noto+Serif:wght@400&amp;family=Playfair+Display:ital,wght@0,400;0,500;1,400&amp;family=Poppins:wght@300;400&amp;display=swap" rel="stylesheet"/>
+<!-- Material Icons -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind Config -->
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "error-container": "#ffdad6",
+                    "outline-variant": "#c5c6ce",
+                    "on-tertiary": "#ffffff",
+                    "on-secondary": "#ffffff",
+                    "tertiary-container": "#2b160e",
+                    "secondary-container": "#b6d0fe",
+                    "on-primary": "#ffffff",
+                    "surface-tint": "#4e5f7b",
+                    "secondary": "#465f87",
+                    "on-background": "#1d1b17",
+                    "on-primary-fixed-variant": "#374762",
+                    "on-tertiary-fixed-variant": "#5b4136",
+                    "on-tertiary-fixed": "#2b160e",
+                    "on-surface": "#1d1b17",
+                    "surface-container": "#f3ede6",
+                    "on-secondary-fixed": "#001b3c",
+                    "inverse-on-surface": "#f6f0e9",
+                    "inverse-surface": "#32302c",
+                    "tertiary-fixed-dim": "#e4beb1",
+                    "on-surface-variant": "#44474d",
+                    "background": "#fff8f1",
+                    "on-secondary-container": "#3f5980",
+                    "on-primary-fixed": "#091c35",
+                    "surface-variant": "#e7e2db",
+                    "inverse-primary": "#b6c7e8",
+                    "on-tertiary-container": "#9e7d70",
+                    "primary": "#000000",
+                    "on-secondary-fixed-variant": "#2d476e",
+                    "on-error-container": "#93000a",
+                    "primary-fixed-dim": "#b6c7e8",
+                    "surface-container-low": "#f9f3ec",
+                    "outline": "#75777e",
+                    "tertiary-fixed": "#ffdbce",
+                    "primary-fixed": "#d5e3ff",
+                    "secondary-fixed": "#d5e3ff",
+                    "on-primary-container": "#7484a3",
+                    "on-error": "#ffffff",
+                    "tertiary": "#000000",
+                    "surface-dim": "#dfd9d2",
+                    "secondary-fixed-dim": "#aec8f5",
+                    "surface-bright": "#fff8f1",
+                    "primary-container": "#091c35",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-container-highest": "#e7e2db",
+                    "surface": "#fff8f1",
+                    "error": "#ba1a1a",
+                    "surface-container-high": "#ede7e0",
+                    "warm-teak": "#6A4030",
+                    "deep-indigo": "#071A33",
+                    "border-color": "#CDBDB0",
+                    "muted-silver": "#D1D5DB"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "stack-md": "1.5rem",
+                    "stack-lg": "4rem",
+                    "margin-page": "2rem",
+                    "stack-sm": "0.5rem",
+                    "section-padding": "6rem",
+                    "gutter": "1rem",
+                    "canvas-width": "500px"
+            },
+            "fontFamily": {
+                    "display-name": [
+                            "Playfair Display"
+                    ],
+                    "headline-lg": [
+                            "Playfair Display"
+                    ],
+                    "body-md": [
+                            "Poppins"
+                    ],
+                    "body-lg": [
+                            "Poppins"
+                    ],
+                    "metadata": [
+                            "IBM Plex Mono"
+                    ],
+                    "headline-lg-mobile": [
+                            "Playfair Display"
+                    ],
+                    "headline-md": [
+                            "Playfair Display"
+                    ],
+                    "arabic-quote": [
+                            "Noto Serif"
+                    ]
+            },
+            "fontSize": {
+                    "display-name": [
+                            "64px",
+                            {
+                                    "lineHeight": "72px",
+                                    "fontWeight": "400"
+                            }
+                    ],
+                    "headline-lg": [
+                            "40px",
+                            {
+                                    "lineHeight": "48px",
+                                    "fontWeight": "400"
+                            }
+                    ],
+                    "body-md": [
+                            "15px",
+                            {
+                                    "lineHeight": "24px",
+                                    "fontWeight": "400"
+                            }
+                    ],
+                    "body-lg": [
+                            "18px",
+                            {
+                                    "lineHeight": "28px",
+                                    "fontWeight": "300"
+                            }
+                    ],
+                    "metadata": [
+                            "12px",
+                            {
+                                    "lineHeight": "16px",
+                                    "letterSpacing": "0.1em",
+                                    "fontWeight": "500"
+                            }
+                    ],
+                    "headline-lg-mobile": [
+                            "32px",
+                            {
+                                    "lineHeight": "40px",
+                                    "fontWeight": "400"
+                            }
+                    ],
+                    "headline-md": [
+                            "24px",
+                            {
+                                    "lineHeight": "32px",
+                                    "letterSpacing": "0.05em",
+                                    "fontWeight": "500"
+                            }
+                    ],
+                    "arabic-quote": [
+                            "22px",
+                            {
+                                    "lineHeight": "44px",
+                                    "fontWeight": "400"
+                            }
+                    ]
+            }
+          }
+        }
+      }
+    </script>
+<style>
+        body {
+            background-color: #071A33; /* Outer background for desktop */
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        #main-canvas {
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: #fff8f1; /* surface bright */
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+            box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        }
+
+        /* Hide scrollbar for slider */
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+
+        /* Envelope / Opening Overlay */
+        #opening-overlay {
+            position: fixed;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            max-width: 500px;
+            height: 100svh;
+            z-index: 100;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition: transform 1s cubic-bezier(0.86, 0, 0.07, 1), opacity 1s ease-in-out;
+        }
+
+        #opening-overlay.open {
+            transform: translateX(-50%) translateY(-100%);
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        /* Parallax Container */
+        .parallax-container {
+            height: 100svh;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            padding-bottom: 2rem;
+        }
+
+        .parallax-layer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: bottom center;
+            background-repeat: no-repeat;
+            will-change: transform;
+        }
+
+        .fade-up {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        }
+
+        .fade-up.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .framed-section {
+            border: 1px solid theme('colors.muted-silver');
+            padding: 4px;
+            margin: theme('spacing.margin-page');
+            position: relative;
+        }
+        .framed-section::after {
+            content: '';
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            right: 4px;
+            bottom: 4px;
+            border: 2px solid theme('colors.border-color');
+            pointer-events: none;
+        }
+
+    </style>
+</head>
+<body class="text-on-surface">
+<!-- OPENING COVER -->
+<div data-alt="A striking digital installation art piece featuring glowing, generative geometric shapes suspended in a vast, minimalist gallery space. The room is illuminated by high-key, soft white lighting that creates a bright, modern light-mode aesthetic. The artwork relies on a sophisticated palette of deep blacks and pristine whites, punctuated by intense accents of vibrant red. The mood is serene yet technologically advanced." id="opening-overlay" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBc9a6V2fN276hFaR7pmbQ4EW6vq1E6hNQWauhEV8GTRtCe5ObW9Pyb9tX7DBPsDAzK4Ot-eeZrmSB943ENRNZlzi1go6goD8D4getkJbFgRBlrOdrpnhr3gTKx28uheGbK-YtyX_T9cDdvpVi_xxu8fzNo1Njo-4GUvXtTlqaX0A4fkDcekeOm-ok77CZ5QoRMzeGzslZAM_UeYPj1eSInXR4RtS9AxSQHjvTeSTLXe9EGqYJpGAcsvFgKuQiDBXn5pg')">
+<div class="absolute inset-0 bg-black/40"></div>
+<div class="relative z-10 text-center flex flex-col items-center justify-center h-full p-8">
+<h2 class="font-metadata text-metadata text-white/80 uppercase tracking-widest mb-4">The Wedding Of</h2>
+<h1 class="font-display-name text-display-name text-white mb-8 italic">Arga &amp; Kirana</h1>
+<p class="font-metadata text-metadata text-white/80 mb-12">Minggu, 12 Desember 2030</p>
+<button class="bg-warm-teak text-white font-metadata text-metadata uppercase py-4 px-12 rounded shadow-lg hover:bg-opacity-90 transition-all z-20" id="btn-open">
+                Buka Undangan
+            </button>
+</div>
+</div>
+<!-- MAIN CANVAS -->
+<main id="main-canvas">
+<!-- MULTILAYER PARALLAX HERO -->
+<section class="parallax-container" id="hero">
+<!-- Layers 1 to 6 -->
+<div class="parallax-layer" data-speed="0.1" id="l1" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB0A7rYs3fDss8O_f4L6m7gyo9tzxbxNAwxCzvM0hZxWaZ6d9q46_4VmHt-kQpAK4aUrtWa2ZslXwsg00YjVgfoL4cTKsge0d-QSVMjPQS-MlfqRnMOuLpOjFVWz9txvq-EXKVcU_mydD5lk4lJODRXq3H9uwQ4LZ7ox2pTnp8Vbn5PDeL4hi3Ue5W4q5bNqg24t-w0tQ8wviUrZ-KwWS4ql1NqiydLVSD-bb1oEXz00x8nfm1KJ47K7OT0u0Tx4B63Jw')"></div>
+<div class="parallax-layer" data-speed="0.2" id="l2" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBrTXWWoShp5sOz8gnFHeqhFoB0ElZxB24t1h7a0vj3XafpGeBVj5CUQNRsJb-z2s8GifNb6RS2mxq1bTdrKiIf9-VW40Av_Pv4wM44dFDy3WftqSrnlHX__zBXePUi33fmURR5h_HziV_jti8r9TJjnhdI1SIE_SFwk5ZUviMCkJ6qUiE5VpmkfD5tS29NM8qACIWRzBCvjREWv1-bsZTCTInSSQ0i_uzME01HiBtu42wrYjlc7TGdMtzTdS8Mi3hbxA')"></div>
+<div class="parallax-layer" data-speed="0.3" id="l3" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAhwCoZj-HFagGnV8np6j0lwwp-auoUSIXL-JVp4E8747cnBdlJmV3CelX74wBc-jjYmSuNf60g8MNbHeleQGZZztCfjlDfnSZOA1AleJ4-yujymmTdSfawjHRt5pleJVlbFpBPlaPnBMkwVDwiz6VWF8FjRbtpbBBoELCgVepH9dhuCJxaeGwGJEqtsV5GTF-QqsuQbnH5mcIZPzifFqHS6k2WdIrHxzElINklDYJ-1QOQT2RkXrJLO77gj8wtvPeJWw')"></div>
+<div class="parallax-layer" data-speed="0.4" id="l4" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAgb177UBl-N4GeNyRefIp--mN5P_GdQsmNXsXLw7LZ2AyXcGwsLilgQX-FPOn2H2Vs1eGif1-UPV9R6h03lP69c4HmRXZsoXBFE7fqYETY4jqAjVmxRS9K6AssiSown5wSiudRMKDl85uniBA_5Z0Ow1fCQMBBMsDT2IfJs60YlXS88GXmAokFZfVrUCbWTJOf2Rdr-f0CouwEpIT8mBbotBmI1CauELyfGEuNGx5H_41SrsI4D1YptlAYuHB-UlHHkA')"></div>
+<div class="parallax-layer" data-speed="0.7" id="l5" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB0meaz6rft1zokHblP6dQ_TWTNpY_1-__AhK5Li7lH3_2qwCSlvNGqlkLer79Aa_AmdXnJR1_L1gmWaz8Hd-RmEoPmXVlPzagERaiw_MsDe-WS8sRuut3VGk1lKmCfhLy3gsn7npPF0rL_LP-rG7milcGYY8_wR-K46ek75Bgq7SxPZR_OKEwzw4oVYEkoMrvcw0HEjBqCyYjtxhFus6AI5c5gj8E5YkxLC8bzG4U2mdlvXgHvP079MRuu_0uFBbTJ8w')"></div>
+<div class="parallax-layer" data-speed="0.8" id="l6-left" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCyfWwD-stpF_2e5WUT8dTLvBbm_DS9sG-zCFnmpw47w7lxgWZisf58CufvJzPCc0FFdVQW7VsxdnVePu-4RFvCnclzqZuX6CXfGhY_vbgO1HKujVZqx-9HxMbSmsiVitn66r8Sb7ZNKWuESYjy1Sq9R5WjPH7Dxqoa8qfslzFfKru2IxgrhXggwlSb2cEtp5P2CFka7vkJ-q8RaliIunNa8d5h3hCblOn0VV8xwSMk2OCM1p53zWH9geyfh1QFZv5Arg')"></div>
+<div class="parallax-layer" data-speed="0.8" id="l6-right" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC73wUlkRvBwmxvjgTTpaIM5zHLhMElFk8HcNaBi5gyeSzXjWB5okSXMkLlTmecd3kmtrshXHFaqgzuBt4WjR0lrJmNNhgK_2LtZ_tWyiXhwU1tpjXH4-oMrIXEElolcuVTcpCJeLrBNKlQjzZWzLAT0X4ZV7LvrcHbCC1B4IN7JY54iDfdsi0pjNP0yhrB7mACr2A0-IXEtzCN57qKAm7cZqUIOpxgy5jmIeHsrlos7ZNXk0SDLwWALCzx_iYJonnOVw')"></div>
+<!-- Gradient Overlay for smooth transition -->
+<div class="absolute bottom-0 left-0 w-full h-48 bg-gradient-to-t from-background to-transparent z-10"></div>
+<div class="relative z-20 text-center mb-12 fade-up">
+<h1 class="font-display-name text-headline-lg-mobile md:text-headline-lg text-white drop-shadow-md italic">Arga &amp; Kirana</h1>
+<p class="font-metadata text-metadata text-white drop-shadow mt-2">Minggu, 12 Desember 2030</p>
+</div>
+</section>
+<!-- QUR'AN VERSE -->
+<section class="py-section-padding px-margin-page text-center bg-surface fade-up">
+<div class="max-w-md mx-auto">
+<span class="material-symbols-outlined text-warm-teak text-4xl mb-6">menu_book</span>
+<p class="font-arabic-quote text-arabic-quote text-tertiary-container mb-6 leading-relaxed" dir="rtl">
+                    وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ۚ إِنَّ فِي ذَٰلِكَ لَآيَاتٍ لِّقَوْمٍ يَتَفَكَّرُونَ
+                </p>
+<p class="font-body-md text-body-md text-on-surface-variant italic mb-4">
+                    "Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu isteri-isteri dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya diantaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang berfikir."
+                </p>
+<p class="font-metadata text-metadata font-bold text-tertiary-container">(QS. Ar-Rum: 21)</p>
+</div>
+</section>
+<!-- CLOSING -->
+<section class="bg-deep-indigo text-white py-section-padding text-center">
+<h2 class="font-headline-md text-headline-md mb-4 italic">Terima Kasih</h2>
+<p class="font-body-md text-body-md text-white/80 mb-8">Atas doa dan restu yang telah diberikan.</p>
+<h1 class="font-display-name text-headline-lg-mobile md:text-headline-lg italic text-white/90">Arga &amp; Kirana</h1>
+</section>
+<!-- FAB / AUDIO CONTROL -->
+<button class="fixed bottom-6 right-6 md:right-[calc(50%-220px)] w-12 h-12 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center shadow-lg z-50 hover:scale-105 transition-transform" id="audio-toggle">
+<span class="material-symbols-outlined" id="audio-icon">music_note</span>
+</button>
+<!-- AUDIO ELEMENT (Hidden) -->
+<audio id="bg-music" loop="">
+<!-- Add a dummy source to prevent errors if not present, though typically user provides audio link. Assuming silent or placeholder for now. -->
+<source src="data:audio/mp3;base64,//NExAAAAANIAAAAAExBTUUzLjEwMKqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq" type="audio/mpeg"/>
+</audio>
+</main>
+<script>
+        // Opening Envelope Logic
+        const btnOpen = document.getElementById('btn-open');
+        const overlay = document.getElementById('opening-overlay');
+        const bgMusic = document.getElementById('bg-music');
+        const audioIcon = document.getElementById('audio-icon');
+        let isPlaying = false;
+
+        btnOpen.addEventListener('click', () => {
+            overlay.classList.add('open');
+            document.body.style.overflow = 'auto'; // Re-enable scroll if it was disabled
+            
+            // Try to play music
+            bgMusic.play().then(() => {
+                isPlaying = true;
+                audioIcon.textContent = 'pause';
+            }).catch(e => {
+                console.log("Audio play failed:", e);
+            });
+        });
+
+        // Audio Toggle
+        document.getElementById('audio-toggle').addEventListener('click', () => {
+            if (isPlaying) {
+                bgMusic.pause();
+                audioIcon.textContent = 'music_note';
+            } else {
+                bgMusic.play();
+                audioIcon.textContent = 'pause';
+            }
+            isPlaying = !isPlaying;
+        });
+
+        // Parallax Effect
+        const layers = document.querySelectorAll('.parallax-layer');
+        const mainCanvas = document.getElementById('main-canvas');
+
+        window.addEventListener('scroll', () => {
+            const scrollY = window.scrollY;
+            
+            layers.forEach(layer => {
+                const speed = parseFloat(layer.getAttribute('data-speed'));
+                const yPos = scrollY * speed;
+                layer.style.transform = `translateY(${yPos}px)`;
+            });
+        });
+
+        // Intersection Observer for Fade-Up Animations
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-up').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body></html>
